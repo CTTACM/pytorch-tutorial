@@ -22,7 +22,7 @@ import torchvision.transforms as transforms
 #                     1. Basic autograd example 1                    #
 # ================================================================== #
 
-# Create tensors.
+# Create tensors.requires_grad:是否要求计算梯度
 x = torch.tensor(1., requires_grad=True)
 w = torch.tensor(2., requires_grad=True)
 b = torch.tensor(3., requires_grad=True)
